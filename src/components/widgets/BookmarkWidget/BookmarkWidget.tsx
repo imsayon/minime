@@ -50,7 +50,7 @@ const BookmarkWidget = ({
 			</div>
 			{name && <span className={styles.nameWrapper}>{name}</span>}
 			{pinned && !isHovered && (
-				<div className={`${styles.button} ${styles.pinButton} ${styles.pinnedActive}`}>
+				<div className={`${styles.button} ${styles.pinButton}`}>
 					<FontAwesomeIcon title="Pinned" icon={faThumbtack} className={styles.icon} />
 				</div>
 			)}
